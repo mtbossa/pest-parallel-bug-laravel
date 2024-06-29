@@ -21,8 +21,6 @@ services:
             - '.:/var/www/html'
         networks:
             - sail
-        depends_on:
-            - redis
 networks:
     sail:
         driver: bridge
